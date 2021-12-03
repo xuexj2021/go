@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xuexj2021/keyboard"
+	"keyboard"
 )
 
 func main() {
