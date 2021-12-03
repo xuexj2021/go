@@ -1,3 +1,4 @@
+//Package keyboard 可以读取用户在键盘上的输入
 package keyboard
 
 import (
@@ -7,6 +8,7 @@ import (
 	"strings"
 )
 
+//GetFloat 将用户在键盘上输入的字符去除前后空格，并转换成float64类型
 func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')

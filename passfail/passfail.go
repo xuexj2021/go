@@ -3,11 +3,11 @@ package main
 
 import (
 	"fmt"
-	"log"
-
 	"keyboard"
+	"log"
 )
 
+//main 可以输入用户的分数，并返回是否及格
 func main() {
 	fmt.Print("Enter a grade: ")
 	grade, err := keyboard.GetFloat()
