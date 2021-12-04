@@ -3,8 +3,9 @@ package main
 
 import (
 	"fmt"
-	"keyboard"
 	"log"
+
+	"github.com/xuexj2021/go/keyboard"
 )
 
 //main 可以输入用户的分数，并返回是否及格
